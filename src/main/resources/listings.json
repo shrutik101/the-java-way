@@ -1,0 +1,52 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "address": "123 Oak Street, Springfield, IL",
+      "price": 1200,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1500,
+      "amenities": ["Air Conditioning", "Garage", "Washer/Dryer"],
+      "availableFrom": "2025-02-01",
+      "contact": {
+        "name": "John Doe",
+        "phone": "555-1234",
+        "email": "johndoe@example.com"
+      },
+      "description": "A spacious 3-bedroom home with a modern kitchen and large backyard."
+    },
+    {
+      "id": 2,
+      "address": "456 Maple Avenue, Madison, WI",
+      "price": 950,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 900,
+      "amenities": ["Dishwasher", "Hardwood Floors"],
+      "availableFrom": "2025-03-01",
+      "contact": {
+        "name": "Jane Smith",
+        "phone": "555-5678",
+        "email": "janesmith@example.com"
+      },
+      "description": "A cozy 2-bedroom apartment located near public transportation."
+    },
+    {
+      "id": 3,
+      "address": "789 Pine Drive, Chicago, IL",
+      "price": 2200,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2000,
+      "amenities": ["Pool", "Balcony", "Gym", "Parking"],
+      "availableFrom": "2025-04-01",
+      "contact": {
+        "name": "Michael Brown",
+        "phone": "555-8765",
+        "email": "michaelbrown@example.com"
+      },
+      "description": "Luxury 4-bedroom house with a pool, gym, and fantastic city views."
+    }
+  ]
+}
