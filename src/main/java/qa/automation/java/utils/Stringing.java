@@ -4,7 +4,9 @@ import java.util.*;
 
 public class Stringing {
     public static void main(String args[]){
-        System.out.println(countOfOccurrences("I am, I am! going. to have have food food.....",'a'));
+        //System.out.println(countOfOccurrences("I am, I am! going. to have have food food.....",'a'));
+        //System.out.println(sentenceWithReversedWords("I am learning Java"));
+        isKangarooWord("miss","mississauga");
     }
 
     // Task 1
@@ -62,7 +64,11 @@ public class Stringing {
 
     // Task 3
     // Check if String1 is kangaroo word of String2
-//    public static boolean isKangarooWord(String str){
+    public static void isKangarooWord(String str1, String str2){
+        if(str2.contains(str1)){
+            System.out.println(str1+" is Kangaroo word of "+str2);
+        }
+    }
 //    }
 
     // Task 4
@@ -83,9 +89,6 @@ public class Stringing {
         return output;
     }
 
-    // Task 5
-    // Update the template to use the given word
-
     //Write a Java program to count the total number of occurrences of a given character in a string without using any loop
     public static int countOfOccurrences(String str, char ch){
         str = str.toLowerCase();
@@ -99,6 +102,22 @@ public class Stringing {
     }
 
     //Reverse Words in a Sentence
+    public static String sentenceWithReversedWords(String str){
+        // I am learning Java
+        List<String> words = new ArrayList<>(List.of(str.split(" ")));
+        List<String> reversedWords = new ArrayList<>();
+        for(String word: words){
+            String reversedWord = "";
+            for(int i=0; i<word.length();i++){
+                reversedWord = word.charAt(i) + reversedWord;
+            }
+            reversedWords.add(reversedWord);
+        }
+        String StringOfReversedWords = String.join(" ",reversedWords);
+        return StringOfReversedWords;
+    }
+
+    //Write a Java program to count the total number of occurrences of a given character in a string without using any loop
 
 }
 
