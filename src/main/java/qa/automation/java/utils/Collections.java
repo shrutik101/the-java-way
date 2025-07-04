@@ -12,7 +12,7 @@ public class Collections {
     }
 
     //Write a Java program that takes a string as input and counts the frequency of each character using a HashMap. Print the result.
-    public static void frequencyOfEachChar(String inputString){
+    public static void frequencyOfEachChar(String inputString) {
 
         //Creating a HashMap containing Character as a key and occurrences as  a value
         HashMap<Character,Integer> charCountMap = new HashMap<>();
@@ -102,7 +102,9 @@ public class Collections {
         }
         strArrayList.sort(String::compareToIgnoreCase);
     }
-    Map<Integer,String> alphabeticallyOrderedMap = new LinkedHashMap<>();
+
 }
+
+
 
 
