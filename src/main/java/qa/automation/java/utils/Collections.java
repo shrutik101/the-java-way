@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Collections {
     public static void main(String[] arg){
-        //firstUniqueCharacter("Mississauga");
+        firstUniqueCharacter("Mississauga");
         //System.out.println(frequencyOfEachWord("There are five tens and five nines and five eights"));
         //Integer[] num = {1,2,3,4,5,2,4,3,1,5,6};
         //printDuplicateElements(num);
